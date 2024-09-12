@@ -20,7 +20,6 @@ from PyQt5.QtGui import QIcon
 from PyQt5.QtWidgets import QApplication, QSystemTrayIcon, QMenu
 
 
-
 class SystemTrayIcon:
     def __init__(self, icon, menu):
         self.tray_icon = QSystemTrayIcon(QIcon('q_icon.png'))
